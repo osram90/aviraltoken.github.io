@@ -6,7 +6,7 @@
 
 We use a **JavaScript-based miner** to raise funding for real research projects that aim to develop **therapies against Dengue, Zika, and other emerging viruses.**
 
-🔗 **[Visit the mining support page](https://osram90.github.io/AVIRAL-Miner/)** to contribute by simply keeping the page open.
+🔗 **[Visit the mining support page](https://osram90.github.io/aviraltoken.github.io/)** to contribute by simply keeping the page open.
 
 Every visit powers science! ⚡
 
