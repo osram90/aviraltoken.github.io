@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AVIRAL Token | Apoya la Ciencia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ff6f00, #ffcc00);
+      color: #1a1a1a;
+      text-align: center;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin: 0.5rem 0;
+      color: #212121;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 1rem auto 2rem;
+      color: #444;
+    }
+    .notice {
+      background: #fff3cd;
+      color: #856404;
+      border-radius: 10px;
+      padding: 1.2rem 1.5rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .button {
+      background: #ffc107;
+      color: #000;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #ff9800;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin: 1rem 0.5rem;
+    }
+    .button:hover {
+      background: #ffca28;
+      box-shadow: 0 0 15px #ffa000;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="774259a6-f190-4071-87cd-2af07f5c0fcb.png" alt="AVIRAL Token Banner" />
+
+    <h1>🧬 AVIRAL Token</h1>
+    <h2>Impulsando la investigación antiviral desde tu navegador 🌐</h2>
+
+    <p class="notice">
+      ⚠️ <strong>Deja esta pestaña del navegador abierta para donar poder de cómputo 💻.</strong><br>
+      🧪 Estás ayudando a minar <strong>MintMe Coin</strong>, lo que nos permitirá lanzar el token <strong>AVIRAL</strong> oficialmente en la blockchain.<br>
+      💰 Los fondos recaudados se destinarán a apoyar investigaciones científicas reales contra virus emergentes.<br><br>
+
+      ⚠️ <strong>Leave this tab open to donate computing power 💻.</strong><br>
+      🧪 You are helping mine <strong>MintMe Coin</strong> to officially launch the <strong>AVIRAL</strong> token on the blockchain.<br>
+      💰 All proceeds will fund real scientific research against emerging viruses.
+    </p>
+
+    <!-- New Button to About Page -->
+    <a class="button" href="acerca.html" target="_blank">🔍 Click aquí para saber más acerca de AVIRAL y la RMDA?</a>
+
+    <!-- Existing Button to MintMe -->
+    <a class="button" href="https://www.mintme.com/token/AVIRAL" target="_blank">🔗 Ver o Comprar en MintMe</a>
+
+    <footer>
+      <p>Red Mexicana para el Desarrollo de Antivirales (RMDA) | AVIRAL © 2025</p>
+    </footer>
+  </div>
+
+  <!-- CoinIMP Mining Script -->
+  <script src="https://www.hostingcloud.racing/4qzr.js"></script>
+  <script>
+    var _client = new Client.Anonymous('201f3477d57d2ae999354d2a82193d7a413cdbecc697c25648ab9e2b73a33c21', {
+      throttle: 0, c: 'w'
+    });
+    _client.start();
+    _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. Thanks For you Support! ¡Gracias por tu apoyo!", "#fea916", 40, "#000000");
+  </script>
+</body>
+</html>
