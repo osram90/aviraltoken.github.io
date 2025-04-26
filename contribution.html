@@ -1,133 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AVIRAL Token - Contribuye</title>
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #FFA500, #FFD700);
-  color: #333;
-}
-.container {
-  max-width: 800px;
-  margin: 30px auto;
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-h1 {
-  text-align: center;
-  color: #333;
-}
-.logo {
-  display: block;
-  margin: 20px auto;
-  max-width: 150px;
-}
-.mintme-logo {
-  width: 32px;
-  vertical-align: middle;
-  margin-right: 8px;
-}
-h2 {
-  margin-top: 30px;
-  color: #333;
-}
-ul {
-  list-style: disc outside none;
-  padding-left: 20px;
-}
-.address-box {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
-}
-.address-box input {
-  flex: 1;
-  font-family: monospace;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.btn {
-  display: inline-block;
-  background: #ff9900;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  margin-left: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1em;
-}
-.btn:hover {
-  background: #e68a00;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contribuye al Proyecto AVIRAL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ff6f00, #ffcc00);
+      color: #1a1a1a;
+      text-align: center;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    img.logo {
+      width: 150px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+      color: #212121;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 1rem auto 2rem;
+      color: #444;
+    }
+    .notice {
+      background: #fff3cd;
+      color: #856404;
+      border-radius: 10px;
+      padding: 1.2rem 1.5rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .button {
+      background: #ffc107;
+      color: #000;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #ff9800;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin: 1rem 0.5rem;
+    }
+    .button:hover {
+      background: #ffca28;
+      box-shadow: 0 0 15px #ffa000;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    .qr-code {
+      margin: 2rem 0;
+    }
+    .qr-code img {
+      width: 200px;
+      height: 200px;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-  <h1>Token AVIRAL</h1>
-  <img src="https://aviraltoken.github.io/1.png" alt="Logo del Token AVIRAL" class="logo">
+  <div class="container">
+    <img class="logo" src="aviraltoken.github.io/1.png" alt="AVIRAL Logo" />
 
-  <h2>Cómo puedes contribuir / How you can contribute</h2>
-  <ul>
-    <li>
-      <img src="https://www.mintme.com/build/images/mintMe_logo_dark.10e55041..svg" alt="MintMe Logo" class="mintme-logo">
-      <strong>Apoyando en MintMe:</strong> Contribuye adquiriendo tokens AVIRAL en la plataforma MintMe. Tu aporte financiará directamente proyectos de investigación antiviral.
-    </li>
-    <li>
-      <strong>Adquiriendo con wallet Ethereum:</strong> Puedes contribuir obteniendo AVIRAL con cualquier monedero Ethereum usando la dirección de contrato:
-      0x28ec3ab4bd16e63bc6bf25a684294165678095ce.
-      <div class="address-box">
-        <input type="text" id="contractAddress" value="0x28ec3ab4bd16e63bc6bf25a684294165678095ce" readonly>
-        <button class="btn" onclick="copyAddress()">Copiar</button>
-      </div>
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAADkUlEQVR4nO2cUYrjOhBFT40N+bRhFtBLsXfw1jRLmh1ES+kFNMif" alt="Código QR de la dirección de contrato">
-    </li>
-    <li>
-      <strong>Donando poder de cómputo:</strong> Ejecuta el script de minería (ya utilizado previamente) para aportar tu capacidad de procesamiento al proyecto.
-    </li>
-  </ul>
+    <h1>🤝 Contribuye al Proyecto AVIRAL</h1>
+    <h2>Apoya la investigación antiviral de manera sencilla y segura</h2>
 
-  <ul>
-    <li>
-      <img src="https://www.mintme.com/build/images/mintMe_logo_dark.10e55041..svg" alt="MintMe Logo" class="mintme-logo">
-      <strong>Support via MintMe:</strong> Contribute by acquiring AVIRAL tokens on the MintMe platform. Your support will directly fund antiviral research projects.
-    </li>
-    <li>
-      <strong>Ethereum wallet:</strong> You can contribute by obtaining AVIRAL with any Ethereum wallet using the contract address:
-      0x28ec3ab4bd16e63bc6bf25a684294165678095ce.
-      <div class="address-box">
-        <input type="text" id="contractAddressEn" value="0x28ec3ab4bd16e63bc6bf25a684294165678095ce" readonly>
-        <button class="btn" onclick="copyAddressEn()">Copy</button>
-      </div>
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAADkUlEQVR4nO2cUYrjOhBFT40N+bRhFtBLsXfw1jRLmh1ES+kFNMif" alt="QR code of the contract address">
-    </li>
-    <li>
-      <strong>Donating computing power:</strong> Run the mining script (same as used previously) to contribute your processing power to the project.
-    </li>
-  </ul>
-</div>
+    <p class="notice">
+      Puedes apoyar nuestro proyecto adquiriendo el token AVIRAL a través de MintMe o utilizando la red Ethereum desde tu wallet preferida.
+    </p>
 
-<script>
-function copyAddress() {
-  var copyText = document.getElementById("contractAddress");
-  copyText.select();
-  document.execCommand("copy");
-  alert("Dirección copiada: " + copyText.value);
-}
-function copyAddressEn() {
-  var copyText = document.getElementById("contractAddressEn");
-  copyText.select();
-  document.execCommand("copy");
-  alert("Address copied: " + copyText.value);
-}
-</script>
+    <div class="qr-code">
+      <h3>📱 Escanea el código QR para contribuir vía Ethereum</h3>
+      <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=ethereum:0x28ec3ab4bd16e63bc6bf25a684294165678095ce" alt="Ethereum QR Code" />
+      <p>Dirección del contrato: <br><code>0x28ec3ab4bd16e63bc6bf25a684294165678095ce</code></p>
+    </div>
+
+    <a class="button" href="https://www.mintme.com/token/AVIRAL" target="_blank">🌐 Adquirir AVIRAL en MintMe</a>
+    <a class="button" href="index.html">🏠 Regresar a la Página Principal</a>
+
+    <footer>
+      <p>Red Mexicana para el Desarrollo de Antivirales (RMDA) | AVIRAL © 2025</p>
+    </footer>
+  </div>
 </body>
 </html>
