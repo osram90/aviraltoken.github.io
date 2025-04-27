@@ -1,5 +1,8 @@
 # 🧬 AVIRAL Token
 
+![AVIRAL Banner](1.png)
+
+
 **ES | Apoya el desarrollo de antivirales desde tu navegador.**  
 **EN | Support antiviral research with decentralized mining.**
 
@@ -10,7 +13,7 @@
 **AVIRAL** es un token comunitario impulsado por la **Red Mexicana para el Desarrollo de Antivirales (RMDA)**.  
 Su propósito es financiar investigaciones sobre antivirales para virus emergentes como Dengue, Zika, SARS-CoV-2 y otros.
 
-![AVIRAL Banner](https://aviraltoken.github.io/774259a6-f190-4071-87cd-2af07f5c0fcb.png)
+![AVIRAL Banner](774259a6-f190-4071-87cd-2af07f5c0fcb.png)
 
 ---
 
@@ -30,7 +33,7 @@ AVIRAL is a blockchain-based community token that supports real antiviral resear
 
 By simply leaving [this page](https://osram90.github.io/aviraltoken.github.io/) open, you're helping us mine MintMe Coin, which is used to activate the AVIRAL token on the blockchain.
 
-![Scientific Collaboration](https://aviraltoken.github.io/df86399a-c447-43d3-84bb-c78989844c67.png)
+![Scientific Collaboration](df86399a-c447-43d3-84bb-c78989844c67.png)
 
 ---
 
